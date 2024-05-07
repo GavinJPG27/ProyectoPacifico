@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1e70bd; /* Color verde océano */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbr {
+    overflow: hidden;
+}
+
+.navbr h1 {
+    float: left;
+    margin: 0;
+}
+
+.navbr a {
+    display: block;
+    color: rgb(26, 134, 177);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+}
+
+.reservation-form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Efecto de sombra */
+}
+
+.reservation-form h2 {
+    color: #1e70bd; /* Color verde océano */
+}
+
+.availability {
+    margin-top: 20px;
+}
+
+.availability h1 {
+    color: #1e70bd; /* Color verde océano */
+    margin-bottom: 10px;
+}
+
+.availability p {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #1e70bd; /* Color verde océano */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1e70bd; /* Tonos más oscuros de verde océano al pasar el mouse */
+}

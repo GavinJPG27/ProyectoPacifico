@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1e70bd; /* Ocean green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbr {
+    background-color: #1e70bd; /* Dark gray */
+    overflow: hidden;
+}
+
+.navbr a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.reservation-form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow effect */
+}
+
+.reservation-form h2 {
+    color: #2b5cc5; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="date"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #1e70bd; /* Ocean green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1e70bd; /* Darker shade of ocean green on hover */
+}
+
+.availability {
+    margin-top: 20px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th, .tabla td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+.tabla th {
+    background-color: #1e70bd; /* Ocean green */
+    color: white;
+}
+
+.tdbutton {
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    margin: 0 auto;
+}
